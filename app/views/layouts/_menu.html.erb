@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-faded navbar-libelula">
+  <div class="container">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <i class="fa fa-hashtag" aria-hidden="true"></i>
+      LibeLúla
+    <% end %>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item">
+        <%= link_to "Login", new_admin_session_path, class: "nav-link" %>
+      </li>
+    </ul>
+  </div>
+</nav>
